@@ -1,0 +1,181 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2C3333;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    color: rgb(165, 240, 15);
+}
+
+h1 {
+    font-size: 25px;
+    color: #E7F6F2;
+    text-align: center;
+}
+
+h4 {
+    margin: 5px 0 -10px 0;
+    color: rgb(228, 228, 228);
+}
+
+/* Buttons Defult settings */
+
+
+.globalbtn {
+    color: #395B64;
+    padding: 10px 20px;
+    margin: -10px 0 0 0;
+    background-color: #A5C9CA;
+    border: 1px solid white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.btndiv {
+   display: flex;
+   justify-content: center;
+}
+
+.aofbtn {
+    color: #395B64;
+}
+
+.aofbtn:hover, .aofbtn:active, .aofbtn:visited {
+    color: black;
+}
+
+/* Header Starts from here */
+
+header {
+    padding: 18px 0;
+    border-bottom: 1px solid #434242;
+    display: flex;
+    justify-content: center;
+}
+
+.header_ulnavbar {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}   
+
+/* Hero Section Starts from here */
+
+.herosection {
+    
+}
+
+.herosection_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.heropara {
+    text-align: center;
+    color: #b1c2be;
+    margin-top: -30px;
+    margin-bottom: 20px;
+
+}   
+
+.scrollsvg{
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+    margin-top: 30px;
+}
+
+/* About Section Starts from here */
+
+.sectionabout {
+    padding: 20px;
+    background-color: grey;
+    margin-top: 50px;
+}
+
+.headinghost {
+    text-align: center;
+    font-size: 30px;
+    color: #E7F6F2;
+}
+
+.hosts {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hostimg {
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    
+}
+
+.hosttext {
+    text-align: center;
+    margin-top: 0px;
+    color: #b1c2be;
+    font-weight: bold;
+}
+
+/* big nav Section */
+
+.tournamentdiv {
+    background-color: #39643f;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.howtoplaydiv {
+    background-color: #646039;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.playersdiv {
+    background-color: #395B64;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bignavbtn {
+    border-radius: 15px;
+    background-color: #81a0a1;
+    color: #0f171a;
+}
+
+.bignava, .bignava:visited  {
+   color: #0f171a;
+}
+
+/* Footer */
+
+.footerbg {
+    background-color: grey;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
