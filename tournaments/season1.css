@@ -15,6 +15,7 @@ body {
 .navbarlink:hover, .navbarlink:active {
     color: rgb(165, 240, 15);
 }
+
 a {
     color:#2c4248;
 
@@ -32,35 +33,6 @@ h4 {
     text-decoration-line: underline;
 }
 
-a {
-
-}
-
-/* Buttons Defult settings */
-
-
-.globalbtn {
-    color: #395B64;
-    padding: 10px 20px;
-    margin: -10px 0 0 0;
-    background-color: #A5C9CA;
-    border: 1px solid white;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-} 
-
-.btndiv {
-   display: flex;
-   justify-content: center;
-}
-
-.aofbtn {
-    color: #395B64;
-}
-
-.aofbtn:hover, .aofbtn:active, .aofbtn:visited {
-    color: black;
-}
 
 /* Header Starts from here */
 
@@ -118,7 +90,7 @@ header {
 }
 
 footer {
-    background-color: grey;
+    background-color: #a7ab8c;
     margin: 0;
     padding: 20px;
     text-align: center;

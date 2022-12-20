@@ -15,10 +15,10 @@ body {
 .navbarlink:hover, .navbarlink:active {
     color: rgb(165, 240, 15);
 }
-a {
+a, a:visited {
     color:#2c4248;
-
 }
+
 h1 {
     font-size: 25px;
     color: #E7F6F2;
@@ -32,9 +32,6 @@ h4 {
     text-decoration-line: underline;
 }
 
-a {
-
-}
 
 /* Buttons Defult settings */
 
@@ -62,22 +59,38 @@ a {
     color: black;
 }
 
-/* Header Starts from here */
+/* newheader */
 
-header {
-    padding: 18px 0;
-    border-bottom: 1px solid #434242;
-    display: flex;
-    justify-content: center;
-}
+ /* header */
 
-.header_ulnavbar {
+ #ulofheader {
     display: flex;
+    gap: 15px;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    gap: 15px;
-}   
+}
+
+#aofnav, #aofnav:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#aofnav:hover, .aofnav:active {
+    color: rgb(165, 240, 15);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #434242;
+}
+
+.currectlink {
+    text-decoration: underline;
+}
+
+/*  */
+
 
 /* main section starts from here */
 
