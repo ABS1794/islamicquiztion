@@ -59,7 +59,7 @@ h4 {
 
 #ulofheader {
     display: flex;
-    gap: 15px;
+    gap: 37px;
     list-style-type: none;
     padding: 0;
 }
@@ -97,6 +97,8 @@ header {
     margin-top: 40px;
 }
 
+
+
 .heropara {
     text-align: center;
     color: #b1c2be;
@@ -113,6 +115,35 @@ header {
     width: 13%;
     margin-top: 30px;
 }
+
+@media screen and (min-width: 700px) {
+    .herosection_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 40px;
+    }
+    h1 {
+        font-size: 40px;
+        color: #E7F6F2;
+        text-align: center;
+    }    
+    .heropara {
+        text-align: center;
+        color: #b1c2be;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    
+    }   
+    .scrollsvg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        margin-top: 30px;
+    }
+  }
 
 /* About Section Starts from here */
 
@@ -150,6 +181,13 @@ header {
 
 /* big nav Section */
 
+.historydiv {
+    background-color: #576439;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .tournamentdiv {
     background-color: #39643f;
     margin: 20px;
@@ -158,14 +196,14 @@ header {
 }
 
 .howtoplaydiv {
-    background-color: #646039;
+    background-color: #395B64;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
 }
 
 .playersdiv {
-    background-color: #395B64;
+    background-color: #646039;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;

@@ -1,0 +1,176 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2C3333;
+}
+
+h1 {
+    font-size: 25px;
+    color: #E7F6F2;
+    text-align: center;
+}
+
+ /* header */
+
+#ulofheader {
+    display: flex;
+    gap: 37px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#aofnav, #aofnav:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#aofnav:hover, .aofnav:active {
+    color: rgb(165, 240, 15);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #434242;
+}
+
+.currectlink {
+    text-decoration: underline;
+}
+
+/* main section starts from here */
+
+
+.lololol {
+    font-size: 13px;
+    text-align: center;
+    margin: -25px 0 35px 0;
+    color: rgb(228, 228, 228);
+}
+
+
+h3 {
+    color:rgb(228, 228, 228);
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px 0 -10px 0;
+    text-decoration-line: underline;
+    text-align: center;
+    
+    color: rgb(200, 200, 200);
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px 0 -10px 0;
+    color: rgb(165, 240, 15);
+    text-align: center;
+}
+
+.player {
+    background-color: #39645f;
+
+    padding: 20px;
+    border-radius: 20px; 
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+
+
+  @media screen and (min-width: 900px) {
+    .players { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 1350px) {
+    .players { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 1700px) {
+    .players { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+
+.divofinfo {
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.infos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.playerphoto {
+    width: 70px;
+    border-radius: 35px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.no-imgdiv {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #213936;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.no-imgdiv-container {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.no-divimg-text {
+    
+    color: rgb(228, 228, 228);
+}
+
+#playername {
+    margin: -10 0 10px 0;
+    text-align: center;
+}
+
+#playerranking {
+    margin-top: -25px;
+    font-size: 12px;
+    text-align: center;
+}
